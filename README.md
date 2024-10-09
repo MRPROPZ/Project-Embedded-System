@@ -1,4 +1,4 @@
-Project Scope can do.
+<b>Project Scope can do.</b>
 1. Security System with Keypad 4x4
 - Password view in code <secret>.
 2. Temperature Automation
