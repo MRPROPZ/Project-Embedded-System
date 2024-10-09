@@ -65,12 +65,8 @@ void loop() {
   // ควบคุม DC motor ตามอุณหภูมิ
   if (temperatureC > 35) {
     digitalWrite(motorPin, HIGH);  // เปิดมอเตอร์ถ้าอุณหภูมิต่ำกว่า 35°C
-    lcd.setCursor(0, 1);
-    lcd.print("Motor ON ");
   } else {
     digitalWrite(motorPin, LOW);   // ปิดมอเตอร์ถ้าอุณหภูมิสูงกว่า 35°C
-    lcd.setCursor(0, 1);
-    lcd.print("Motor OFF");
   }
 
   // อ่านค่าจาก keypad
